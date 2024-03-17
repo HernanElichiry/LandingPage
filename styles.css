@@ -5,11 +5,6 @@ body {
     padding: 0;
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
 
 nav ul li {
     display: inline;
@@ -76,3 +71,87 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+
+.carousel-container {
+    position: relative;
+    max-width: 84%; /* Cambiado a 100% */
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 15px; /* Borde redondeado */
+    
+   
+}
+
+.carousel-slide {
+    display: flex;
+    gap: 10px; /* Espacio entre imágenes */
+    width: calc(100% + 20px); /* Cambiado a 100% */
+    margin-left: -10px; /* Para compensar el espacio entre imágenes */
+}
+
+.carousel-slide img {
+    width: 100%;
+    border-radius: 15px; /* Borde redondeado para cada imagen */
+}
+
+
+
+
+
+#prevBtn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 50%;
+    left: 10px;
+}
+
+#nextBtn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 50%;
+    right: 10px;
+}
+
+#imagen-llamativa {
+    width: 100%;
+    
+  
+    object-fit: cover; /* Para ajustar la imagen y cubrir todo el contenedor */
+}
+
+
+#testimonios {
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.testimonio-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.testimonio {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 10px;
+}
+
+
