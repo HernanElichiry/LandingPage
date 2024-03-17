@@ -22,22 +22,28 @@
         <h1>Saltos en Paracaídas</h1>
     </header>
 
-    <!-- Carrusel -->
-    <div id="servicios">
-        <h2>Servicios</h2>
-        <!-- Aquí iría el carrusel -->
-    </div>
-
-    <!-- Imagen llamativa -->
-    <section id="galeria">
-        <h2>Galería</h2>
-        <img src="/StandigPage/Imagenes/imagen llamativa.png" alt="Imagen Llamativa">
-    </section>
-
+        <!-- Imagen llamativa -->
+        <section id="galeria">
+            <img src="/StandigPage/Imagenes/imagen llamativa.png" alt="Imagen Llamativa">
+        </section>
+    
+    
+ <div class="carousel-container">
+            <div class="carousel-slide">
+                <img src="/StandigPage/Imagenes/carrusel5.jpg" alt="Imagen 1">
+                <img src="/StandigPage/Imagenes/carrusel2.png" alt="Imagen 2">
+                <img src="Imagenes/paracaidismo_14jpg.webp" alt="Imagen 3">
+                <img src="/StandigPage/Imagenes/carrusel4.png" alt="Imagen 1"> 
+            </div>
+            <button id="prevBtn">&#10094;</button>
+            <button id="nextBtn">&#10095;</button>
+        </div>
+    <script src="Carrusel.js"></script> 
+ 
     <!-- Formulario de contacto -->
     <section id="contacto">
         <h2>Contacto</h2>
-        <form action="https://es.wikipedia.org/wiki/Boeing_777" method="post">
+        <form action="https://es.wikipedia.org/wiki/Paracaidismo" method="post">
             <label for="nombre">Nombre:</label>
             <input type="text" id="nombre" name="nombre" required>
             <label for="email">Email:</label>
@@ -51,9 +57,18 @@
     <!-- Testimonios -->
     <section id="testimonios">
         <h2>Testimonios</h2>
-        <!-- Aquí irían los testimonios -->
+        <div class="testimonio-container">
+            <div class="testimonio">
+                <p><strong>Sandra de Córdoba:</strong> ¡Increíble experiencia! El personal fue muy profesional y amable. Definitivamente lo recomendaré a mis amigos.</p>
+            </div>
+            <div class="testimonio">
+                <p><strong>Juan de Buenos Aires:</strong> Estoy asombrado. Nunca pensé que saltar en paracaídas sería tan emocionante. ¡Gracias por la aventura!</p>
+            </div>
+            <div class="testimonio">
+                <p><strong>Marta de Mendoza:</strong> ¡La mejor decisión que he tomado! Sentir la adrenalina mientras caía del cielo fue una experiencia única e inolvidable.</p>
+            </div>
+        </div>
     </section>
-
     <!-- Pie de página -->
     <footer>
         <p>&copy; 2024 Saltos en Paracaídas. Todos los derechos reservados.</p>
