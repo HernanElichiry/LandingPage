@@ -1,4 +1,4 @@
-Claro, aquí tienes una lista con una breve descripción de cada comando:
+
 
 git clone <url_del_repositorio>: Clona un repositorio remoto en tu máquina local.
 git checkout -b <nombre_de_la_rama>: Crea una nueva rama y cambia a ella.
