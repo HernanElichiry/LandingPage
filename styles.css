@@ -72,6 +72,7 @@ footer {
     padding: 20px 0;
 }
 
+
 .carousel-container {
     position: relative;
     max-width: 84%; /* Cambiado a 100% */
@@ -92,7 +93,7 @@ footer {
 .carousel-slide img {
     width: 100%;
     border-radius: 15px; /* Borde redondeado para cada imagen */
-}
+} 
 
 
 
