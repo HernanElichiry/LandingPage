@@ -20,3 +20,5 @@ Guardar el proyecto en un repositorio existente:
 
 git remote add <nombre_del_repositorio_remoto> <url_del_repositorio_remoto>
 git push <nombre_del_repositorio_remoto> <nombre_de_la_rama>
+
+git push --set-upstream origin Diego
