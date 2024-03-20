@@ -24,19 +24,39 @@ header {
 
 h1 {
     margin: 0;
+    
 }
 
+/* CSS */
 section {
     padding: 50px 0;
     text-align: center;
 }
 
-img {
+.imagen-llamativa {
+    position: relative;
+    display: inline-block;
+}
+
+.imagen-llamativa img {
     max-width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
 }
+
+.texto-superpuesto {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    padding: 10px 20px;
+    color: #ffffff;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 100px;
+    
+}
+
 
 form {
     max-width: 600px;
