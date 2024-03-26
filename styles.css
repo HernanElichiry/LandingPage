@@ -149,12 +149,20 @@ footer {
 }
 
 #imagen-llamativa {
-    width: 100%;
-    
-  
-    object-fit: cover; /* Para ajustar la imagen y cubrir todo el contenedor */
+    width: 100%; 
+    object-fit: cover; /* Para ajustar la imagen y cubrir todo el contenedor */   
+   
 }
 
+.texto-superpuesto{ 
+    
+    margin-left: 10px;
+    text-align: right;
+    width: 50%; 
+    border: solid 5px;
+
+
+}
 
 #testimonios {
     padding: 20px;
