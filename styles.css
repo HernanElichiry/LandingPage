@@ -29,6 +29,11 @@ h1 {
     
     
 }
+h3 {
+    font-size: 40px;
+    margin: 0;
+    
+}
 
 /* CSS */
 section {
@@ -73,6 +78,7 @@ label {
 
 input[type="text"],
 input[type="email"],
+input[type="tel"],
 textarea {
     width: 100%;
     padding: 10px;
@@ -117,9 +123,6 @@ footer {
     width: 100%;
     border-radius: 15px; /* Borde redondeado para cada imagen */
 } 
-
-
-
 
 
 #prevBtn {
@@ -186,3 +189,28 @@ footer {
     margin: 0 10px;
 }
 
+  /* Row de informacion */
+  .row {
+    /*border: solid;
+    border: color(srgb red green blue);*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Ajusta el espacio entre las columnas */
+    margin-left: 9%;
+    margin-right: 9%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.column {
+    flex: 0 0 calc(25% - 10px); /* Ajusta el ancho de cada columna */
+    margin-bottom: 20px; /* Espacio entre filas */
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Estilos para las imágenes */
+h4 { 
+    font-size: 30px;
+ 
+}
