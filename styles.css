@@ -66,32 +66,91 @@ section {
 }
 
 
-form {
-    max-width: 600px;
-    margin: 0 auto;
+.container {
+    
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  
+    padding: 20px;
+    margin-right: 8%;
+    margin-left: 8%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    
 }
 
+/* Estilos para la columna de la promoción */
+.promo {
+    flex: 1;
+    padding-right: 20px;
+    border-right: 2px solid #ccc;
+   
+}
+.promo h2 {
+   
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0;
+    background-color: rgb(236, 236, 14);
+   
+}
+.promo ul {
+
+    font-size: 25px;
+    padding-left: 20px;
+    list-style-type: none; 
+   
+}
+
+.promo ul li:before {
+    content: "★"; /* Añade una estrella antes de cada elemento de la lista */
+    margin-right: 5px;
+}
+
+.PRECIO {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+   
+}
+
+/* Estilos para la columna del formulario */
+.formulario {
+    flex: 1;
+    padding-left: 20px;
+}
+.formulario h2 {
+    margin-top: 0;
+}
+/* Estilos para el formulario */
+form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+}
 label {
     display: block;
     margin-bottom: 10px;
 }
-
-input[type="text"],
-input[type="email"],
-input[type="tel"],
-textarea {
+input, textarea {
     width: 100%;
     padding: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     border: 1px solid #ccc;
+    border-radius: 5px;
 }
-
 button {
-    padding: 10px 20px;
     background-color: #007bff;
     color: #fff;
+    padding: 10px 20px;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
 }
 
 footer {
